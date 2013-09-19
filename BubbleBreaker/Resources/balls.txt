@@ -1,0 +1,423 @@
+Simple plain text exporter for demo purposes
+
+See http://www.grantlee.org/apidox/for_themers.html for more information
+
+Texture data:
+    texture.width  = 272
+    texture.height = 56
+
+    texture.trimmedName = balls2
+    texture.fullName = balls2.png
+    texture.absoluteFileName = /Users/zlmcd/dev/BubbleBreaker/BubbleBreaker/Resources/balls2.png
+
+SmartUpdateHash: $TexturePacker:SmartUpdate:f02a7380c4b112f22e51a3c9f406a237:1/1$
+
+Settings:
+
+Access to all values in the settings (.tps file):
+
+settings.premultiplyAlpha = false
+settings.dataFormat = plain
+settings.allowRotation = true
+settings.flipPVR = false
+settings.ditherType = 0
+...
+
+Sprite data:
+
+There are 2 variants:
+- sprites - contains the sprites, aliases are available in the
+  aliasList property and are not added top level
+
+- allSprites - list of all sprites
+
+Load javascript filter plugin, must be located in the exporter's folder in a subfolder
+grantlee/0.2/makecssselector.qs
+
+
+// set width & height for calculations using the javascript filter
+
+
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    1.png
+
+    -- name without image type extension
+    sprite.trimmedName      = 1
+
+    -- name with image extension
+    sprite.fullName         = 1.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 218
+    sprite.frameRect.y = 2
+    sprite.frameRect.width = 52
+    sprite.frameRect.height = 52
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.801470588235294
+    sprite.frameRectRel.y = 0.0357142857142857
+    sprite.frameRectRel.width = 0.191176470588235
+    sprite.frameRectRel.height = 0.928571428571429
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.8014705882352942
+    sprite.frameRectRel.y = 0.007352941176470588
+    sprite.frameRectRel.width = 0.19117647058823528
+    sprite.frameRectRel.height = 0.19117647058823528
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 218
+    sprite.frameRectWithoutRotation.y = 2
+    sprite.frameRectWithoutRotation.width = 52
+    sprite.frameRectWithoutRotation.height = 52
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = false
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 52
+    sprite.sourceRect.height = 52
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 52
+    sprite.untrimmedSize.height = 52
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = /Users/zlmcd/dev/BubbleBreaker/BubbleBreaker/Resources/1.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2013-08-25T22:34:31
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2013-08-25T22:34:31
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 825
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    2.png
+
+    -- name without image type extension
+    sprite.trimmedName      = 2
+
+    -- name with image extension
+    sprite.fullName         = 2.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 164
+    sprite.frameRect.y = 2
+    sprite.frameRect.width = 52
+    sprite.frameRect.height = 52
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.602941176470588
+    sprite.frameRectRel.y = 0.0357142857142857
+    sprite.frameRectRel.width = 0.191176470588235
+    sprite.frameRectRel.height = 0.928571428571429
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.6029411764705882
+    sprite.frameRectRel.y = 0.007352941176470588
+    sprite.frameRectRel.width = 0.19117647058823528
+    sprite.frameRectRel.height = 0.19117647058823528
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 164
+    sprite.frameRectWithoutRotation.y = 2
+    sprite.frameRectWithoutRotation.width = 52
+    sprite.frameRectWithoutRotation.height = 52
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = false
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 52
+    sprite.sourceRect.height = 52
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 52
+    sprite.untrimmedSize.height = 52
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = /Users/zlmcd/dev/BubbleBreaker/BubbleBreaker/Resources/2.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2013-08-25T22:34:53
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2013-08-25T22:34:53
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 943
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    3.png
+
+    -- name without image type extension
+    sprite.trimmedName      = 3
+
+    -- name with image extension
+    sprite.fullName         = 3.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 110
+    sprite.frameRect.y = 2
+    sprite.frameRect.width = 52
+    sprite.frameRect.height = 52
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.404411764705882
+    sprite.frameRectRel.y = 0.0357142857142857
+    sprite.frameRectRel.width = 0.191176470588235
+    sprite.frameRectRel.height = 0.928571428571429
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.40441176470588236
+    sprite.frameRectRel.y = 0.007352941176470588
+    sprite.frameRectRel.width = 0.19117647058823528
+    sprite.frameRectRel.height = 0.19117647058823528
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 110
+    sprite.frameRectWithoutRotation.y = 2
+    sprite.frameRectWithoutRotation.width = 52
+    sprite.frameRectWithoutRotation.height = 52
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = false
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 52
+    sprite.sourceRect.height = 52
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 52
+    sprite.untrimmedSize.height = 52
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = /Users/zlmcd/dev/BubbleBreaker/BubbleBreaker/Resources/3.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2013-08-25T22:35:13
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2013-08-25T22:35:13
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 909
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    4.png
+
+    -- name without image type extension
+    sprite.trimmedName      = 4
+
+    -- name with image extension
+    sprite.fullName         = 4.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 56
+    sprite.frameRect.y = 2
+    sprite.frameRect.width = 52
+    sprite.frameRect.height = 52
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.205882352941176
+    sprite.frameRectRel.y = 0.0357142857142857
+    sprite.frameRectRel.width = 0.191176470588235
+    sprite.frameRectRel.height = 0.928571428571429
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.20588235294117646
+    sprite.frameRectRel.y = 0.007352941176470588
+    sprite.frameRectRel.width = 0.19117647058823528
+    sprite.frameRectRel.height = 0.19117647058823528
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 56
+    sprite.frameRectWithoutRotation.y = 2
+    sprite.frameRectWithoutRotation.width = 52
+    sprite.frameRectWithoutRotation.height = 52
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = false
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 52
+    sprite.sourceRect.height = 52
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 52
+    sprite.untrimmedSize.height = 52
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = /Users/zlmcd/dev/BubbleBreaker/BubbleBreaker/Resources/4.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2013-08-25T22:35:27
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2013-08-25T22:35:27
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 898
+
+
+    =========================================================================
+
+    Use the javascript filter plugin to replace -hover with :hover
+    5.png
+
+    -- name without image type extension
+    sprite.trimmedName      = 5
+
+    -- name with image extension
+    sprite.fullName         = 5.png
+
+    -- offset of the center of the trimmed sprite from the
+    -- center of the original sprite (used by cocos2d)
+    sprite.absoluteOffset.x = 
+    sprite.absoluteOffset.y = 
+
+    -- list of alias sprites for this one
+    sprite.aliasList = 
+
+    --- frame rectangle with pixel coordinates
+    sprite.frameRect.x = 2
+    sprite.frameRect.y = 2
+    sprite.frameRect.width = 52
+    sprite.frameRect.height = 52
+
+    --- frame rectangle with uv coordinates (0..1)
+    sprite.frameRectRel.x = 0.00735294117647059
+    sprite.frameRectRel.y = 0.0357142857142857
+    sprite.frameRectRel.width = 0.191176470588235
+    sprite.frameRectRel.height = 0.928571428571429
+
+    --- frame rectangle with uv coordinates (0..1) calculated through JS
+    sprite.frameRectRel.x = 0.007352941176470588
+    sprite.frameRectRel.y = 0.007352941176470588
+    sprite.frameRectRel.width = 0.19117647058823528
+    sprite.frameRectRel.height = 0.19117647058823528
+
+    --- version of the frame rect with "original" width and height
+    sprite.frameRectWithoutRotation.x = 2
+    sprite.frameRectWithoutRotation.y = 2
+    sprite.frameRectWithoutRotation.width = 52
+    sprite.frameRectWithoutRotation.height = 52
+
+    -- true if the sprite was rotated
+    sprite.rotated        = false
+
+    -- true if the sprite does not contain any transparent pixels
+    sprite.isSolid        = false
+
+    -- true if the sprite was trimmed
+    sprite.trimmed        = false
+
+    sprite.sourceRect.x = 0
+    sprite.sourceRect.y = 0
+    sprite.sourceRect.width = 52
+    sprite.sourceRect.height = 52
+
+    sprite.cornerOffset.x = 0
+    sprite.cornerOffset.y = 0
+
+    sprite.untrimmedSize.width = 52
+    sprite.untrimmedSize.height = 52
+
+    -- the file absolute file name of the sprite
+    sprite.fileData.absoluteFileName = /Users/zlmcd/dev/BubbleBreaker/BubbleBreaker/Resources/5.png
+
+    -- the modification date of the sprite
+    sprite.fileData.lastModified = 2013-08-25T22:35:46
+
+    -- the creation date of the sprite
+    sprite.fileData.created = 2013-08-25T22:35:46
+
+    -- the file size of the sprite
+    sprite.fileData.fileSize = 864
+
+
+

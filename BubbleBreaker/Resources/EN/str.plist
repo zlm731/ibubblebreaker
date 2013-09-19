@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>7</key>
+	<string>HIGHEST:%d</string>
+	<key>6</key>
+	<string>SCORE:%d</string>
+	<key>5</key>
+	<string>about</string>
+	<key>4</key>
+	<string>option</string>
+	<key>3</key>
+	<string>top</string>
+	<key>2</key>
+	<string>infinite</string>
+	<key>1</key>
+	<string>standard</string>
+</dict>
+</plist>
